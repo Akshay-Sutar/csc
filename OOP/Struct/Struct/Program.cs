@@ -6,13 +6,11 @@ namespace Struct
     {
         static void Main(string[] args)
         {
-            Cursor c = new Cursor
+            Cursor c = new()
             {
                 X = 9,
                 Y = 8
             };
-
-
         }
     }
 }
