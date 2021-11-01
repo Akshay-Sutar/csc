@@ -5,6 +5,7 @@ namespace Delegates
 {
     class Program
     {
+        // delegate are function references that can be used as callbacks
         public delegate void printString(string s);
 
         public static void printScreen(string s)
